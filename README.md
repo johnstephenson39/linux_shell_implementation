@@ -1,21 +1,17 @@
-# HW2
+# Linux Shell Implementation in C
 1. Project title
     * Shell Program in C
 2. Project Description
     * Implementation of a simple shell with support for pipes, background processes, IO redirection, performing internal commands, and executing processes
 3. Author
     * John Stephenson
-4. Acknowledgment
-    * The switch statement in the ownCmdHandler function found at https://www.geeksforgeeks.org/making-linux-shell-c/ was used as a template for implementing the internalCommands function. I probably would have used a series of if statements otherwise.
-    * pipe3.c was used for most of the pipe functionality
-    * popen.c was used in finding the process name for the jobs command
-5. Getting Started
+4. Getting Started
     * Prerequisites/dependencies
         * stdio.h, unistd.h, string.h, stdlib.h, sys/wait.h, fcntl.h
     * Instructions for building the software
         * gcc blazersh.c -o blazersh
         * run the program by executing ./blazersh if blazersh is not in PATH, blazersh otherwise
-6. Running the test
+5. Running the test
     * How to run test cases
         * typing 'help' will bring up the list of internal commands that can be run
         * run other programs within the blazersh shell by typing ./programname or just programname if already in the PATH
@@ -37,7 +33,7 @@
         * sample input file
         * sample output file
         * quitting the program
-7. Screenshots/Sample Session
+6. Screenshots/Sample Session
     * executing processes in the background and the jobs command display
         * ![jobs](screenshots/jobs.png)   
     * pipes for two and three processes and IO redirection
